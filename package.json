@@ -3,9 +3,7 @@
   "description": "Collaborative text editing powered by Firebase",
   "version": "1.5.0",
   "author": "Firebase (https://firebase.google.com/)",
-  "contributors": [
-    "Michael Lehenbauer <michael@firebase.com>"
-  ],
+  "contributors": ["Michael Lehenbauer <michael@firebase.com>"],
   "homepage": "http://www.firepad.io/",
   "repository": {
     "type": "git",
@@ -32,15 +30,10 @@
     "collaborative"
   ],
   "main": "dist/firepad.min.js",
-  "files": [
-    "dist/**",
-    "LICENSE",
-    "README.md",
-    "package.json"
-  ],
+  "files": ["dist/**", "LICENSE", "README.md", "package.json"],
   "dependencies": {
     "firebase": "^3 || ^4",
-    "jsdom": ">3"
+    "jsdom": "7.2.2"
   },
   "devDependencies": {
     "coveralls": "^2.11.2",
